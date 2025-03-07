@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>html</title>
+</head>
+
+<body>
+  <h1>1-Basic Layout In HTML</h1>
+  <h1>Heading tag-1</h1>
+  <h2>Heading tag-2</h2>
+  <h3>Heading tag-3</h3>
+  <h4>Heading tag-4</h4>
+  <h5>Heading tag-5</h5>
+  <h6>Heading tag-6</h6>
+  <p align="justify">
+    <b>Lorem</b> ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+    delectus explicabo doloribus. Quibusdam eveniet cupiditate totam
+    accusamus, repellendus molestias illum qui, placeat repudiandae optio
+    facere reiciendis dolore, maxime expedita quidem repellat ipsam natus.
+    Facilis animi illum, odit tenetur eius error odio provident illo nisi
+    aliquam incidunt, dignissimos alias numquam necessitatibus, consequatur
+    ipsa cumque dolores itaque. Explicabo repellat libero vitae qui quos
+    dolores voluptas cumque, sapiente similique sint praesentium? Nemo facilis
+    ipsum ut ipsa quasi? Nemo, sunt? Officiis voluptatum eius quam modi neque
+    suscipit perferendis iste? Blanditiis, id aspernatur assumenda neque
+    nesciunt illo, in perspiciatis reprehenderit earum distinctio quis
+    repudiandae perferendis!
+  </p>
+  <hr />
+  <h1>2-Text Formatting Tags</h1>
+
+  <b>Html</b>
+  <br />
+  <i>Html</i>
+  <br />
+  <s>Html</s>
+  <br />
+  <strong>Html</strong>
+  <br />
+  <small>Html</small>
+  <br />
+  <tt>Html</tt>
+  <br />
+  <u>Html</u><br />
+  <h1>H<sub>2</sub>O</h1>
+  <h1>H<sup>2</sup>O</h1>
+  <pre>Html-Hyper Text Markup Language</pre>
+  <hr />
+  <h1>3.Font Tag in HTML</h1>
+  <font face="Roboto" size="7" color="green">
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil
+      provident ad ratione modi exercitationem odit sunt debitis ducimus
+      excepturi, eos quasi illum voluptatum, eius vero repellat, expedita aut
+      voluptatem cumque itaque esse doloremque voluptas tempora quam! Qui ex
+      ipsa, illo asperiores nisi illum impedit distinctio quidem nulla quasi
+      sequi totam, eveniet vero ullam consequatur necessitatibus ducimus
+      magnam nam deleniti modi cum perspiciatis porro beatae ipsum. Sit
+      quisquam veritatis quo aliquid? Soluta aspernatur saepe sunt. Molestiae
+      exercitationem fugit quia quisquam provident iure. Blanditiis labore ad
+      asperiores, dolores minus quam vel. Deleniti omnis at sint suscipit,
+      inventore ad quod odit aliquid. Accusamus!
+    </p>
+  </font>
+  <hr />
+  <h1>4.Image Tag</h1>
+  <img src="./Gold coin.jpg.jpg" alt="Gold Coin" width="150px" height="250px" />
+  <hr />
+  <h1>5.Table Tag</h1>
+  <table border="1px" cellpadding>
+    <tr>
+      <td colspan="6">
+        <h1>School Time Table</h1>
+      </td>
+    </tr>
+    <tr>
+      <th>Days</th>
+      <th>1</th>
+      <th>2</th>
+      <th rowspan="6">B <br> r<br>e<br>a<br>k</th>
+      <th>3</th>
+      <th>4</th>
+    </tr>
+    <tr>
+      <td>Mon</td>
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Sci</td>
+      <td>Soc</td>
+    </tr>
+    <tr>
+      <td>Tue</td>
+      <td>Eng</td>
+      <td>Mat</td>
+      <td>Sci</td>
+      <td>Soc</td>
+    </tr>
+  </table>
+  <hr>
+  <h1>6.List Tag</h1>
+  <!-- comment 1-disk 2- square 3-circle -->
+  <ul type="square">
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+  </ul>
+  <!-- a,A,I,i -->
+  <ol type="I">
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+    <li>item</li>
+  </ol>
+  <hr>
+  <h1>7.Marquee Tag</h1>
+  <!-- 
+     scroll
+     slide
+     alternate
+     
+     up
+     dowm
+     left
+     right
+
+     -->
+  <marquee bgcolor="orange" width="300px" height="30px" loop="2" behavior="alternate" direction="right"
+    scrollamount="10" scrolldelay="250"> Arrunchalam</marquee>
+  <hr>
+  <h1>8.Anchor Tag</h1>
+  <a href="6_List_tag.html" target="_blank">6.List Tags</a>
+  <a href="7_marquee.html" target="box">7.marquee</a>
+  <iframe src="" name="box" height="500px" width="500px"></iframe>
+  <hr>
+  <h1>9.Form Elements</h1>
+  <fieldset>
+    <legend>Registration Form</legend>
+    <form>
+      <label>Name</label>
+      <input type="text">
+      <br>
+      <label>Password</label>
+      <input type="password">
+      <label>Select Course</label>
+      <select>
+        <option value="1">C</option>
+        <option value="2">JAVA</option>
+        <option value="3">C++</option>
+      </select>
+      <br>
+      <input type="date">
+      <br>
+      <textarea cols="30" rows="5"></textarea>
+      <input type="radio" name="gen">Male
+      <input type="radio" name="gen">Female
+      <br>
+      <input type="checkbox">I agree
+      <br>
+      <input type="file" multiple>Choose File
+      <br>
+      <button>Save</button>
+      <input type="submit">
+      <br>
+      <input type="color">
+      <br>
+      <input type="range">
+    </form>
+  </fieldset>
+
+
+</body>
+
+</html>
